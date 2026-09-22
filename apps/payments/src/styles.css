@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  color: #202a2e;
+  background: #f4f1ea;
+}
+
+body {
+  margin: 0;
+}
+
+.remote-panel {
+  border-top: 5px solid #c8633e;
+  padding: 2rem;
+  background: #fffdf8;
+  box-shadow: 0 1rem 3rem rgba(32, 42, 46, 0.08);
+}
+
+.remote-label {
+  color: #c8633e;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.remote-panel h2 {
+  max-width: 16ch;
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 5vw, 4rem);
+  letter-spacing: -0.04em;
+}
+
+.remote-panel > p:not(.remote-label) {
+  max-width: 42rem;
+  color: #586568;
+  font-size: 1.1rem;
+}
+
+.remote-stat {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  background: #f7e4dc;
+}
+
+.remote-stat strong {
+  font-size: 2rem;
+}
